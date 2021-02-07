@@ -15,7 +15,7 @@
          "description":"your api hash"
       },
       "HU_STRING_SESSION":{
-         ""description":"your TELETHON session"
+         "description":"your TELETHON session"
       }
    },
    "buildpacks":[
