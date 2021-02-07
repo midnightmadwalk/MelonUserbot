@@ -1,0 +1,38 @@
+{
+   "name":"Userbot",
+   "description":"Rock your group",
+   "logo":"",
+   "keywords":[
+      "Telegram",
+      "Bot",
+      "Userbot"
+   ],
+   "env":{
+      "API_ID":{
+         "description":"your api id"
+      },
+      "API_HASH":{
+         "description":"your api hash"
+      },
+      "HU_STRING_SESSION":{
+         ""description":"your TELETHON session"
+      }
+   },
+   "buildpacks":[
+      {
+         "url":"https://github.com/heroku/heroku-buildpack-apt.git"
+      },
+      {
+         "url":"heroku/nodejs"
+      },
+      {
+         "url":"heroku/python"
+      }
+   ],
+   "formation":{
+      "worker":{
+         "quantity":1,
+         "size":"free"
+      }
+   }
+}
